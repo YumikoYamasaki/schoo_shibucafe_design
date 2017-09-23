@@ -1,0 +1,141 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font: sans-serif;
+}
+
+header h1{
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/*nav*/
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 100;
+}
+nav a{
+  color: #fff;
+  float: left;
+  font-size: 1.3rem;
+  margin: 0 2rem;
+  margin-top: 2.3rem;
+}
+
+/*topimgSlide*/
+#imageSlide {
+}
+
+#imageSlide img {
+}
+
+
+/*About*/
+#About {
+  background: url("about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+#About h2{
+  font-size: 1.7rem;
+  padding-top: 5rem;
+}
+#About p{
+  font-size: 1.5rem;
+  height: 9rem;
+  line-height: 3rem;
+  padding-top: 8rem;
+  padding-bottom: 10em;
+}
+
+/*Menu*/
+#Menu {
+  background-color: rgb(200, 210, 222);
+  color: rgb(3, 3, 3);
+}
+#Menu h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 4rem;
+}
+.menu{
+  width: 100%;
+  margin: auto;
+}
+.menu-img {
+  float: left;
+  width: 21.3%;
+  padding: 6% 6%;
+  position: relative;
+}
+.menu-img p{
+  position: absolute;
+  width: 100%;
+  margin-top: 0.2rem;
+  font-size: 90%;
+}
+/*注意　上のmenu-img p のwidth100%を記述するとナゾの空白が右に出る*/
+.under {
+  clear: both;
+  padding-bottom: 0.5rem;
+}
+.under p{
+  text-align: right;
+}
+
+/*Access*/
+#Access {
+  background-color: rgb(248, 248, 255);
+  color: rgb(30, 30, 30);
+}
+#Access h2{
+  text-align: center;
+}
+#Access p{
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+
+/*Contuct*/ /*footer*/
+#Contuct, footer {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+#Contuct {
+  color: rgb(247, 247, 247);
+}
+#Contuct h2{
+  text-align: center;
+}
+#Contuct th {
+  font-size: 0.8rem;
+  padding: 3%;
+}
+footer {
+  font-size: 0.7rem;
+  height: 2rem;
+  line-height: 2rem;
+  color: rgb(247, 247, 247);
+  text-align: center;
+}

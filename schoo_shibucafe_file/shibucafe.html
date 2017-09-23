@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Shibu Cafe</title>
+  <link rel="stylesheet" type="text/css" href="shibucafeCss/reset.css" media="all">
+  <link rel="stylesheet" type="text/css" href="shibucafeCss/shibucafe2.css" media="all">
+  <link rel="" href="confirm.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Shibu Cafe</h1>
+    <div class="top">
+      <div id="mainimg">
+        <img src="cssSlide/slideImage/topimg1.jpg" alt="ShibuCafe's Image1" id="slide1"/>
+        <img src="cssSlide/slideImage/topimg2.jpg" alt="ShibuCafe's Image2" id="slide2"/>
+        <img src="cssSlide/slideImage/topimg3.jpg" alt="ShibuCafe's Image3" id="slide3"/>
+      </div>
+      <img src="images/slice/bigLogo.png" alt="ShibuCafe's logo">
+    </div>
+  </header>
+  <nav>
+    <button id="open" type="button"><p>MENU</p></button>
+    <div id="menu">
+      <ul>
+        <li><a href="#mainimg">Top</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Access">Access</a></li>
+        <li><a href="#Contuct">Contuct</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <article id="About">
+       <h2>About</h2>
+       <p>渋谷道玄坂を登ったところにあるカフェレストラン。 <br>豆は全てフェアトレード。<br>バリスタが淹れるコーヒーを楽しみながら、ゆっくり過ごせる空間をご用意しております。</p>
+    </article>
+    <article id="Menu">
+       <h2>Menu</h2>
+       <div class="menu">
+         <div class="menu-img">
+           <img src="images/slice/caffe-latte.jpg" alt="caffe-latte">
+           <p>カフェオレ　500円</p>
+         </div>
+         <div class="menu-img">
+           <img src="images/slice/caffe-au-lait.jpg" alt="cafe-au-lait">
+           <p>カフェラテ 500円</p>
+         </div>
+         <div class="menu-img">
+           <img src="images/slice/espresso-compana.jpg" alt="espresso-compana">
+           <p>エスプレッソ コンパナ　600円</p>
+         </div>
+         <div class="menu-img">
+           <img src="images/slice/chiffon.jpg" alt="chiffon-cake">
+           <p>シフォンケーキ　450円</p>
+         </div>
+         <div class="menu-img">
+           <img src="images/slice/fruits-cake.jpg" alt="fruits-cake">
+           <p>フルーツケーキ　450円</p>
+         </div>
+         <div class="menu-img">
+           <img src="images/slice/fruits-plate.jpg" alt="fruits-plate">
+           <p>フルーツプレート　500円</p>
+         </div>
+       </div>
+       <div class="under">
+         <p>... and more.</p>
+       </div>
+     </article>
+     <article id="Access">
+         <h2>Access</h2>
+         <div class="adress">
+           <p>　　住所：150-0043 東京都渋谷区道玄坂 xxx-xx Cafe</p>
+           <p>電話番号：000-00-0000</p>
+           <p>営業時間：7:30-24:00</p>
+         </div>
+         <div class="map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.821043564767!2d139.6937018501325!3d35.65678048010281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b55e72e30cb%3A0x8307afafe340151c!2zc2Nob2_moKrlvI_kvJrnpL4!5e0!3m2!1sja!2sjp!4v1498478472291"  style="border:0" allowfullscreen></iframe>
+         </div>
+     </article>
+     <section id="Contuct">
+       <h2>Contuct</h2>
+       <p>ご不明な点があればこちらのフォームからお問い合わせください。</p>
+       <form class="" method="post" action="confirm.html">
+         <table>
+           <tbody>
+             <tr>
+               <th>お名前：</th>
+               <td><input type="text" name="name"></td>
+             </tr>
+             <tr>
+               <th> メールアドレス：</th>
+               <td><input type="text" name="mailAdress"></td>
+             </tr>
+             <tr>
+               <th>お問い合わせ内容：</th>
+               <td><textarea name="inquiry" rows="5" cols="20"></textarea></td>
+             </tr>
+             <input type="hidden" name="Confirm_Page" value="confirm.html">
+             <tr>
+               <th></th>
+               <td><input type="submit" name="send" value="内容の確認"></td>
+             </tr>
+           </tbody>
+         </table>
+       </form>
+   </section>
+   </main>
+   <footer>
+     <small>&copy;2017 ShibuCafe</small>
+   </footer>
+   <script src="shibucafeJq/jquery-3.2.1.min.js" type="text/javascript"></script>
+   <script src="shibucafeJq/shibucafe.js" type="text/javascript"></script>
+</body>
